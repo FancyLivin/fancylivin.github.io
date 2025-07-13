@@ -1,0 +1,27 @@
+/* Light Modes */
+body.light-mode {
+    background-color: white;
+    border: 5px solid black;
+}
+
+.light-mode h1{
+    color: black;
+}
+
+.light-mode .fit-picture {
+    border: 5px solid #ccc;
+}
+
+/* Dark Modes */
+body.dark-mode {
+    background-color: black;
+    border: 5px solid white;
+}
+
+.dark-mode h1{
+    color: white;
+}
+
+.dark-mode .fit-picture {
+    border: 5px solid #555555;
+}
