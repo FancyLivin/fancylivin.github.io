@@ -1,0 +1,13 @@
+:root {
+    --silly-image: url("/images/swimmer_guy.jpeg")
+}
+
+html.professional {
+    background-color: #ccc;
+}
+
+html.funny {
+    background-color: #ccc;
+    background-image: var(--silly-image);
+    background-repeat: repeat;
+}

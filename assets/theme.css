@@ -1,27 +1,44 @@
-/* Light Modes */
-body.light-mode {
-    background-color: white;
-    border: 5px solid black;
+:root {
+    --bg-light: white;
+    --bg-dark: black;
+    --border-dark: #471396;
+    --border-light: #090040;
+    --text-light: #806600;
+    --text-dark: #FFCC00;
 }
 
-.light-mode h1{
-    color: black;
+/* Light Modes */
+body.light-mode {
+    background-color: var(--bg-light);
+    border: 5px solid var(--border-light);
+}
+
+.light-mode h1 {
+    color: var(--text-light);
+}
+
+.light-mode p {
+    color: var(--text-light);
 }
 
 .light-mode .fit-picture {
-    border: 5px solid #ccc;
+    border: 5px solid var(--border-light);
 }
 
 /* Dark Modes */
 body.dark-mode {
-    background-color: black;
-    border: 5px solid white;
+    background-color: var(--bg-dark);
+    border: 5px solid var(--border-dark);
 }
 
 .dark-mode h1{
-    color: white;
+    color: var(--text-dark);
+}
+
+.dark-mode p {
+    color: var(--text-dark);
 }
 
 .dark-mode .fit-picture {
-    border: 5px solid #555555;
+    border: 5px solid var(--border-dark);
 }

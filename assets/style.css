@@ -1,6 +1,6 @@
 html {
     font-family: cursive;
-    color-scheme: light dark;
+    background-size: 100px 100px;
     padding: 5px;
 }
 
@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-    color: rgb(80, 191, 246);
+    text-align: center;
 }
 
 img {
