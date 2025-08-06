@@ -4,6 +4,12 @@ const funnyModeSwitch = document.getElementById('funny-mode')
 const body = document.body;
 const html = document.documentElement;
 
+document.querySelectorAll('.dropdown-toggle').forEach(header => {
+    header.addEventListener('click', function() {
+        this.parentElement.classList.toggle('open');
+    });
+});
+
 // Initial class setters
 body.classList.add('light-mode');
 html.classList.add('professional')

@@ -1,10 +1,10 @@
 :root {
     --bg-light: white;
-    --bg-dark: black;
-    --border-dark: #471396;
-    --border-light: #090040;
+    --bg-dark: #000000;
+    --border-dark: #9677BB;
+    --border-light: #3d308e;
     --text-light: #806600;
-    --text-dark: #FFCC00;
+    --text-dark: #FDC571;
 }
 
 /* Light Modes */
@@ -13,10 +13,8 @@ body.light-mode {
     border: 5px solid var(--border-light);
 }
 
-.light-mode h1 {
-    color: var(--text-light);
-}
-
+.light-mode h1,
+.light-mode h2,
 .light-mode p {
     color: var(--text-light);
 }
@@ -31,10 +29,8 @@ body.dark-mode {
     border: 5px solid var(--border-dark);
 }
 
-.dark-mode h1{
-    color: var(--text-dark);
-}
-
+.dark-mode h1,
+.dark-mode h2,
 .dark-mode p {
     color: var(--text-dark);
 }

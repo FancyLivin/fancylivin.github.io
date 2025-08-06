@@ -2,12 +2,22 @@
     --silly-image: url("/images/swimmer_guy.jpeg")
 }
 
+/* Professional Modes */
 html.professional {
     background-color: #ccc;
 }
 
+.professional p {
+    text-align: left;
+}
+
+/* Funny Modes */
 html.funny {
     background-color: #ccc;
     background-image: var(--silly-image);
     background-repeat: repeat;
+}
+
+.funny p {
+    text-align: right;
 }

@@ -1,5 +1,5 @@
 html {
-    font-family: cursive;
+    /* font-family: cursive; */
     background-size: 100px 100px;
     padding: 5px;
 }
@@ -15,19 +15,33 @@ h1 {
     text-align: center;
 }
 
-p {
-    text-align: center;
+h2 {
+  font-size: 40px;
+  text-align: center;
 }
 
 img {
   border-radius: 20%;
 }
 
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-section.open .dropdown-content {
+  display: block;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
 .fit-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    object-fit: cover;
+    width: 50%;
     height: 300px;
 }
 
